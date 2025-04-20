@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gyas Brain - Documentary</title>
-
+    <title>About Gyas Brain</title>
 </head>
 <body>
     <header>
@@ -17,21 +16,41 @@
             <li><a href="./about.html">About</a></li>
             <li><a href="./trailer.html">Trailer</a></li>
             
-        </ul>
     </nav>
 
     <main>
         <img src="./poster.png" alt="Movie Poster" class="movie-poster">
-        <h2>Coming Soon: August 1st 2025</h2>
-        <p class="logline">A documentary that explores the car culture of Trinidad and Tobago through discussions with various participants.</p>
+        
+        <section>
+            <h2>About the Documentary</h2>
+            <p class="title">Gyas Brain</p>
+                <p>Trinidad and Tobago’s undeniable passion for cars has earned it the title of the Caribbean’s automotive hub.</p>
+                <p> This documentary explores the island’s vibrant car culture through discussions with enthusiasts. The film takes a deep dive into the perspectives of a drag racers, drop-low specialists , fabricators , garage owners , street racers, off-roaders, circuit racers, sound men and drifters.</p>
+                <p>Each will share their journey, the challenges of car ownership, and the financial dedication behind their passion.</p>  
+
+            <h3>Release Date</h3>
+            <p><strong>August 1st, 2025</strong></p>
+
+            <h3>Directed By</h3>
+            <p><strong>Stephon</strong></p>
+
+            <h3>Produced By</h3>
+            <p><strong>[Producer's Name]</strong></p>
+
+            <h3>Executive Producers</h3>
+            <p><strong>[Executive Producers’ Names]</strong></p>
+
+            <h3>Featuring</h3>
+            <p><strong>[Main Featured Participants]</strong></p>
+        </section>
     </main>
 
     <footer>
         <p>&copy; 2025 Gyas Brain - All rights reserved.</p>
     </footer>
-</body>
+</body> 
 <style>
-    /* Google Font */
+ /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /* General Styling */
@@ -61,18 +80,6 @@ header h1 {
     margin: 0;
     letter-spacing: 1px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-}
-
-/* Logline Styling */
-.logline {
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: #f5f5f5;
-    margin-top: 0.5rem;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.5;
 }
 
 /* Navigation Styling */
@@ -125,6 +132,55 @@ nav {
     box-shadow: 0 0 15px rgba(0, 87, 255, 0.6);
 }
 
+/* About Page Styling */
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+/* About Title */
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff4500; /* A bold standout color */
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5); /* Adds depth */
+    letter-spacing: 2px; /* Creates a wide title effect */
+    margin-bottom: 1rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #ff4500;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Synopsis Styling */
+section p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #f5f5f5;
+    margin-top: 1rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+/* Credits Styling */
+section h3 {
+    font-size: 1.5rem;
+    color: #d70000;
+    margin-top: 1.5rem;
+}
+
+section p strong {
+    font-size: 1.2rem;
+    color: #f5f5f5;
+}
+
 /* Footer Styling */
 footer {
     background: #222;
@@ -135,5 +191,4 @@ footer {
 }
 
 </style>
-
 </html>
