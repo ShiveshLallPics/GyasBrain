@@ -22,12 +22,20 @@
 
     <main>
         <img src="./poster.png" alt="Movie Poster" class="movie-poster">
-        <h2>Coming Soon: August 1st 2025</h2>
+        <h2>Coming Soon: May 9th 2025</h2>
         <p class="logline">A documentary that explores the car culture of Trinidad and Tobago through discussions with various participants.</p>
     </main>
 
     <footer>
         <p>&copy; 2025 Gyas Brain - All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/gyasbrains868/" target="_blank">
+                <img src="ig.png" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com/@gyasbrains" target="_blank">
+                <img src="tt.png" alt="TikTok">
+            </a>
+        </div>
     </footer>
 </body>
 <style>
@@ -126,12 +134,33 @@ nav {
 }
 
 /* Footer Styling */
+/* Footer Styling */
 footer {
     background: #222;
     color: #ccc;
     padding: 1rem;
     text-align: center;
     margin-top: 2rem;
+}
+
+.social-links {
+    margin-top: 1rem;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 30px; /* Adjust size as needed */
+    height: auto;
+    filter: brightness(0.8); /* Slight dimming for a subtle effect */
+    transition: 0.3s ease-in-out;
+}
+
+.social-links img:hover {
+    filter: brightness(1); /* Brighten on hover */
 }
 
 </style>
